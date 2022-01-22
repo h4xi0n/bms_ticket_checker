@@ -31,7 +31,7 @@ def background():
         print(datetime.datetime.now())
         if keyboard.is_pressed('q'):  # if key 'q' is pressed
             webbrowser.open(
-                'https://in.bookmyshow.com/buytickets/spider-man-no-way-home-kochi/movie-koch-ET00319539-MT/'+check_date,
+                URL+check_date,
                 new=2)
             print('You Pressed Q!')
             break  # finishing the loop
